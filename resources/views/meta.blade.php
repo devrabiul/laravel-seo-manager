@@ -17,7 +17,6 @@
 @endif
 <meta name="geo.placename" content="{{  config('app.name') }}">
 
-
 <!-- Dublin Core basic info -->
 <meta name="dcterms.Format" content="text/html">
 <meta name="dcterms.Language" content="{{ config('app.locale') }}">
