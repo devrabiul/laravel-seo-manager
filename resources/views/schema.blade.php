@@ -7,20 +7,17 @@
     "description": "{{ !empty($description) ? $description : config('laravel-seo-manager.description') }}",
     "image": "{{ !empty($image) ? $image : config('laravel-seo-manager.image') }}",
     "keywords": "{{ !empty($keywords) ? $keywords : config('laravel-seo-manager.keywords') }}",
-
     @if(config('laravel-seo-manager.author'))
     "author": {
         "@type": "Person",
         "name": "{{ config('laravel-seo-manager.author') }}"
     },
     @endif
-
     @if(config('laravel-seo-manager.fb_app_id'))
     "sameAs": [
         "https://www.facebook.com/{{ config('laravel-seo-manager.fb_app_id') }}"
     ],
     @endif
-
     "publisher": {
         "@type": "Organization",
         "name": "{{ config('app.name') }}",
@@ -29,12 +26,10 @@
             "url": "{{ config('laravel-seo-manager.image') }}"
         }
     },
-
     "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "{{ url()->current() }}"
     },
-
     @if(isset($breadcrumbs) && is_array($breadcrumbs))
     "breadcrumb": {
         "@type": "BreadcrumbList",
@@ -50,7 +45,6 @@
         ]
     },
     @endif
-
     @if(config('laravel-seo-manager.type') == 'Article')
     "articleBody": "{{ !empty($article_body) ? $article_body : '' }}",
     "datePublished": "{{ !empty($date_published) ? $date_published : now()->toIso8601String() }}",
