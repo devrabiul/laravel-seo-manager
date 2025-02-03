@@ -1,6 +1,6 @@
 <?php
 
-namespace devrabiul\LaravelSeoManager;
+namespace Devrabiul\LaravelSeoManager;
 
 use Illuminate\Support\ServiceProvider;
 
