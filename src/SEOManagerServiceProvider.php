@@ -10,13 +10,6 @@ class SEOManagerServiceProvider extends ServiceProvider
     {
         $this->loadViewsFrom(__DIR__ . '/../resources/views', 'seo');
 
-        if ($this->app->runningInConsole()) {
-            $this->registerPublishing();
-        }
-    }
-
-    private function registerPublishing()
-    {
         $this->publishes([
             __DIR__.'/../config/laravel-seo-manager.php' => config_path('laravel-seo-manager.php'),
         ]);

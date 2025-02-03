@@ -1,14 +1,27 @@
 {
   "name": "devrabiul/laravel-seo-manager",
   "type": "library",
-  "description": "Laravel SEO Manager is an SEO tool that is used to improve SEO of a website or specific page by adding recommended meta tags to your application.",
+  "description": "Laravel SEO Manager is an SEO tool that improves SEO by adding recommended meta tags.",
   "keywords": [
     "seo",
     "tags",
-    "Social",
+    "social",
     "devrabiul",
     "laravel-seo-manager",
-    "meta-tags"
+    "meta-tags",
+    "search engine optimization",
+    "meta description",
+    "meta title",
+    "open graph",
+    "twitter cards",
+    "structured data",
+    "json-ld",
+    "sitemap",
+    "schema markup",
+    "laravel seo",
+    "seo manager",
+    "laravel package",
+    "seo tools"
   ],
   "homepage": "https://github.com/devrabiul/laravel-seo-manager",
   "license": "MIT",
@@ -20,7 +33,7 @@
     }
   ],
   "require": {
-    "php": ">=5.4.0"
+    "php": ">=7.3"
   },
   "autoload": {
     "psr-4": {
@@ -35,9 +48,16 @@
   "extra": {
     "laravel": {
       "providers": [
-        "devrabiul\\LaravelSeoManager\\SEOManagerServiceProvider"
+        "Devrabiul\\LaravelSeoManager\\SEOManagerServiceProvider"
       ]
     }
+  },
+  "scripts": {
+    "post-autoload-dump": [
+      "@php artisan clear-compiled",
+      "@php artisan config:clear",
+      "@php artisan cache:clear"
+    ]
   },
   "minimum-stability": "stable"
 }
