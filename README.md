@@ -43,11 +43,11 @@ Run the following command to publish the configuration file:
 php artisan vendor:publish --provider="Devrabiul\LaravelSeoManager\SEOManagerServiceProvider"
 ```
 
-This will create the `meta.php` configuration file in the `config` directory.
+This will create the `laravel-seo-manager.php` configuration file in the `config` directory.
 
 ## Configuration
 
-After installation, you can configure the meta tags in the `config/meta.php` file. Here's a summary of the available options:
+After installation, you can configure the meta tags in the `config/laravel-seo-manager.php` file. Here's a summary of the available options:
 
 | Option            | Description                                                         |
 |-------------------|---------------------------------------------------------------------|
@@ -76,7 +76,7 @@ After configuring the meta tags, you can include them in your Blade templates by
 @include('seo::meta')
 ```
 
-This will automatically use the values set in the `meta.php` config file. However, you can override specific values by passing them as arguments:
+This will automatically use the values set in the `laravel-seo-manager.php` config file. However, you can override specific values by passing them as arguments:
 
 ```php
 @include('seo::meta', [
