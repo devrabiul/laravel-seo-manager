@@ -183,4 +183,7 @@ return [
     */
     'mobile_web_app_capable' => 'yes',
 
+
+    'manifest' => '',
+
 ];
