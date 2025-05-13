@@ -4,6 +4,12 @@
 
 By integrating **Laravel SEO Manager**, you can boost organic traffic, improve click-through rates (CTR), and enhance your website’s visibility in Google Search, Bing, and other search engines. Whether you're managing a blog, eCommerce store, or business website, this package provides a comprehensive SEO solution with customizable settings to match your specific needs.
 
+[![Latest Stable Version](https://poser.pugx.org/devrabiul/laravel-seo-manager/v/stable)](https://packagist.org/packages/devrabiul/laravel-seo-manager)
+[![Total Downloads](https://poser.pugx.org/devrabiul/laravel-seo-manager/downloads)](https://packagist.org/packages/devrabiul/laravel-seo-manager)
+![GitHub license](https://img.shields.io/github/license/devrabiul/laravel-seo-manager)
+[![MadeWithLaravel.com shield](https://madewithlaravel.com/storage/repo-shields/5648-shield.svg)](https://madewithlaravel.com/p/laravel-seo-manager/shield-link)
+![GitHub Repo stars](https://img.shields.io/github/stars/devrabiul/laravel-seo-manager?style=social)
+
 ## SEO Features
 
 - **Standard SEO** (title, description, robots, etc.)
