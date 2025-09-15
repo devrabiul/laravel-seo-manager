@@ -6,9 +6,20 @@ By integrating **Laravel SEO Manager**, you can boost organic traffic, improve c
 
 [![Latest Stable Version](https://poser.pugx.org/devrabiul/laravel-seo-manager/v/stable)](https://packagist.org/packages/devrabiul/laravel-seo-manager)
 [![Total Downloads](https://poser.pugx.org/devrabiul/laravel-seo-manager/downloads)](https://packagist.org/packages/devrabiul/laravel-seo-manager)
+[![Monthly Downloads](https://poser.pugx.org/devrabiul/laravel-seo-manager/d/monthly)](https://packagist.org/packages/devrabiul/laravel-seo-manager)
 ![GitHub license](https://img.shields.io/github/license/devrabiul/laravel-seo-manager)
-[![MadeWithLaravel.com shield](https://madewithlaravel.com/storage/repo-shields/5648-shield.svg)](https://madewithlaravel.com/p/laravel-seo-manager/shield-link)
+[![Buy us a tree](https://img.shields.io/badge/Treeware-%F0%9F%8C%B3-lightgreen)](https://plant.treeware.earth/devrabiul/laravel-seo-manager)
 ![GitHub Repo stars](https://img.shields.io/github/stars/devrabiul/laravel-seo-manager?style=social)
+
+---
+
+## 🚀 Live Demo
+
+👉 [Try the Live Demo](https://packages.rixetbd.com/devrabiul/laravel-seo-manager)
+
+![Live Demo Thumbnail](https://packages.rixetbd.com/storage/app/public/package/devrabiul/laravel-seo-manager.webp)
+
+---
 
 ## SEO Features
 
